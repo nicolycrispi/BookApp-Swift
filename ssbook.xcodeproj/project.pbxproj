@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F934EC002816C92100063515 /* SSBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F934EBFF2816C92100063515 /* SSBookApp.swift */; };
+		F93CD429280F542300EA6D14 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = F93CD428280F542300EA6D14 /* Apollo */; };
+		F93CD42B280F542300EA6D14 /* ApolloAPI in Frameworks */ = {isa = PBXBuildFile; productRef = F93CD42A280F542300EA6D14 /* ApolloAPI */; };
+		F93CD42D280F542300EA6D14 /* ApolloCodegenLib in Frameworks */ = {isa = PBXBuildFile; productRef = F93CD42C280F542300EA6D14 /* ApolloCodegenLib */; };
+		F93CD42F280F542300EA6D14 /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = F93CD42E280F542300EA6D14 /* ApolloSQLite */; };
+		F93CD431280F542300EA6D14 /* ApolloUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F93CD430280F542300EA6D14 /* ApolloUtils */; };
+		F93CD433280F542300EA6D14 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = F93CD432280F542300EA6D14 /* ApolloWebSocket */; };
+		F93CD43B280F561D00EA6D14 /* APITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93CD43A280F561D00EA6D14 /* APITestApp.swift */; };
 		F9734E74280740DD00301ECA /* ssbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9734E73280740DD00301ECA /* ssbookApp.swift */; };
 		F9734E76280740DD00301ECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9734E75280740DD00301ECA /* ContentView.swift */; };
 		F9734E78280740DF00301ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9734E77280740DF00301ECA /* Assets.xcassets */; };
@@ -14,6 +22,32 @@
 		F9734E85280740DF00301ECA /* ssbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9734E84280740DF00301ECA /* ssbookTests.swift */; };
 		F9734E8F280740DF00301ECA /* ssbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9734E8E280740DF00301ECA /* ssbookUITests.swift */; };
 		F9734E91280740DF00301ECA /* ssbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9734E90280740DF00301ECA /* ssbookUITestsLaunchTests.swift */; };
+		F9C9BB9F28108BD900CC261F /* AppTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9BB9E28108BD900CC261F /* AppTestView.swift */; };
+		F9C9BBAE28109D0F00CC261F /* BookDescription.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F9C9BBA628109D0F00CC261F /* BookDescription.graphql */; };
+		F9C9BBAF28109D0F00CC261F /* Categories.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F9C9BBA728109D0F00CC261F /* Categories.graphql */; };
+		F9C9BBB028109D0F00CC261F /* AllBooks.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F9C9BBA828109D0F00CC261F /* AllBooks.graphql */; };
+		F9C9BBB128109D0F00CC261F /* FavoriteAuthors.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F9C9BBA928109D0F00CC261F /* FavoriteAuthors.graphql */; };
+		F9C9BBB228109D0F00CC261F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9BBAA28109D0F00CC261F /* API.swift */; };
+		F9C9BBB328109D0F00CC261F /* FavoriteBooks.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F9C9BBAB28109D0F00CC261F /* FavoriteBooks.graphql */; };
+		F9C9BBB428109D0F00CC261F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9BBAC28109D0F00CC261F /* Network.swift */; };
+		F9C9BBB528109D0F00CC261F /* UserPicture.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F9C9BBAD28109D0F00CC261F /* UserPicture.graphql */; };
+		F9C9BBB82810A21100CC261F /* FavoriteAuthorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9BBB72810A21100CC261F /* FavoriteAuthorsViewModel.swift */; };
+		F9C9BBBB2810A24C00CC261F /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9BBBA2810A24C00CC261F /* ContentView2.swift */; };
+		F9C9BBBD2810A66900CC261F /* FavoriteAuthorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9BBBC2810A66900CC261F /* FavoriteAuthorsModel.swift */; };
+		F9C9BBBF2810A91D00CC261F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C9BBBE2810A91D00CC261F /* ViewController.swift */; };
+		F9EFD48328084B13001BF382 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EFD48228084B13001BF382 /* HeaderView.swift */; };
+		F9EFD48E28085A2C001BF382 /* RoundesRectangleCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EFD48D28085A2C001BF382 /* RoundesRectangleCustomShape.swift */; };
+		F9EFD49428089E1E001BF382 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EFD49328089E1E001BF382 /* MainNavigationView.swift */; };
+		F9EFD4962808A15A001BF382 /* BookScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EFD4952808A15A001BF382 /* BookScreen.swift */; };
+		F9FC83222807604B00D66AFB /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC83212807604B00D66AFB /* HomeTabView.swift */; };
+		F9FC8324280761FD00D66AFB /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC8323280761FD00D66AFB /* AddView.swift */; };
+		F9FC83262807620F00D66AFB /* SearchTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC83252807620F00D66AFB /* SearchTabView.swift */; };
+		F9FC83282807622200D66AFB /* FavoritesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC83272807622200D66AFB /* FavoritesTabView.swift */; };
+		F9FC832A2807636C00D66AFB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC83292807636C00D66AFB /* TabBarView.swift */; };
+		F9FC832C280766EB00D66AFB /* FavoriteBooksHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC832B280766EB00D66AFB /* FavoriteBooksHomeView.swift */; };
+		F9FC832E2807674F00D66AFB /* FavoriteAuthorsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC832D2807674F00D66AFB /* FavoriteAuthorsHomeView.swift */; };
+		F9FC83302807679500D66AFB /* GenresHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC832F2807679500D66AFB /* GenresHomeView.swift */; };
+		F9FC8332280767E400D66AFB /* LibraryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC8331280767E400D66AFB /* LibraryHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F934EBFF2816C92100063515 /* SSBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSBookApp.swift; sourceTree = "<group>"; };
+		F93CD43A280F561D00EA6D14 /* APITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITestApp.swift; sourceTree = "<group>"; };
 		F9734E70280740DD00301ECA /* ssbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ssbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9734E73280740DD00301ECA /* ssbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ssbookApp.swift; sourceTree = "<group>"; };
 		F9734E75280740DD00301ECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +80,34 @@
 		F9734E8A280740DF00301ECA /* ssbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ssbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9734E8E280740DF00301ECA /* ssbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ssbookUITests.swift; sourceTree = "<group>"; };
 		F9734E90280740DF00301ECA /* ssbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ssbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9C9BB9E28108BD900CC261F /* AppTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTestView.swift; sourceTree = "<group>"; };
+		F9C9BBA428109C0F00CC261F /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		F9C9BBA628109D0F00CC261F /* BookDescription.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BookDescription.graphql; sourceTree = "<group>"; };
+		F9C9BBA728109D0F00CC261F /* Categories.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Categories.graphql; sourceTree = "<group>"; };
+		F9C9BBA828109D0F00CC261F /* AllBooks.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AllBooks.graphql; sourceTree = "<group>"; };
+		F9C9BBA928109D0F00CC261F /* FavoriteAuthors.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FavoriteAuthors.graphql; sourceTree = "<group>"; };
+		F9C9BBAA28109D0F00CC261F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F9C9BBAB28109D0F00CC261F /* FavoriteBooks.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FavoriteBooks.graphql; sourceTree = "<group>"; };
+		F9C9BBAC28109D0F00CC261F /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F9C9BBAD28109D0F00CC261F /* UserPicture.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UserPicture.graphql; sourceTree = "<group>"; };
+		F9C9BBB72810A21100CC261F /* FavoriteAuthorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAuthorsViewModel.swift; sourceTree = "<group>"; };
+		F9C9BBBA2810A24C00CC261F /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		F9C9BBBC2810A66900CC261F /* FavoriteAuthorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAuthorsModel.swift; sourceTree = "<group>"; };
+		F9C9BBBE2810A91D00CC261F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9EFD48228084B13001BF382 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F9EFD48928085451001BF382 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		F9EFD48D28085A2C001BF382 /* RoundesRectangleCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundesRectangleCustomShape.swift; sourceTree = "<group>"; };
+		F9EFD49328089E1E001BF382 /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		F9EFD4952808A15A001BF382 /* BookScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookScreen.swift; sourceTree = "<group>"; };
+		F9FC83212807604B00D66AFB /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		F9FC8323280761FD00D66AFB /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		F9FC83252807620F00D66AFB /* SearchTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabView.swift; sourceTree = "<group>"; };
+		F9FC83272807622200D66AFB /* FavoritesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTabView.swift; sourceTree = "<group>"; };
+		F9FC83292807636C00D66AFB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F9FC832B280766EB00D66AFB /* FavoriteBooksHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBooksHomeView.swift; sourceTree = "<group>"; };
+		F9FC832D2807674F00D66AFB /* FavoriteAuthorsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAuthorsHomeView.swift; sourceTree = "<group>"; };
+		F9FC832F2807679500D66AFB /* GenresHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresHomeView.swift; sourceTree = "<group>"; };
+		F9FC8331280767E400D66AFB /* LibraryHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +115,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93CD42B280F542300EA6D14 /* ApolloAPI in Frameworks */,
+				F93CD433280F542300EA6D14 /* ApolloWebSocket in Frameworks */,
+				F93CD431280F542300EA6D14 /* ApolloUtils in Frameworks */,
+				F93CD42F280F542300EA6D14 /* ApolloSQLite in Frameworks */,
+				F93CD42D280F542300EA6D14 /* ApolloCodegenLib in Frameworks */,
+				F93CD429280F542300EA6D14 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +141,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F926434E280DFD9B009A651C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9734E75280740DD00301ECA /* ContentView.swift */,
+				F9EFD48228084B13001BF382 /* HeaderView.swift */,
+				F9FC83292807636C00D66AFB /* TabBarView.swift */,
+				F9FC832B280766EB00D66AFB /* FavoriteBooksHomeView.swift */,
+				F9FC832D2807674F00D66AFB /* FavoriteAuthorsHomeView.swift */,
+				F9FC832F2807679500D66AFB /* GenresHomeView.swift */,
+				F9FC8331280767E400D66AFB /* LibraryHomeView.swift */,
+				F9FC83212807604B00D66AFB /* HomeTabView.swift */,
+				F9FC8323280761FD00D66AFB /* AddView.swift */,
+				F9FC83252807620F00D66AFB /* SearchTabView.swift */,
+				F9FC83272807622200D66AFB /* FavoritesTabView.swift */,
+				F9EFD4952808A15A001BF382 /* BookScreen.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		F9734E67280740DD00301ECA = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +183,11 @@
 		F9734E72280740DD00301ECA /* ssbook */ = {
 			isa = PBXGroup;
 			children = (
-				F9734E73280740DD00301ECA /* ssbookApp.swift */,
-				F9734E75280740DD00301ECA /* ContentView.swift */,
-				F9734E77280740DF00301ECA /* Assets.xcassets */,
+				F934EBFF2816C92100063515 /* SSBookApp.swift */,
+				F9C9BBB92810A22A00CC261F /* Testes de código */,
+				F9C9BBB628109DF100CC261F /* Domain */,
+				F9C9BB9D28108BAE00CC261F /* Data */,
+				F9EFD487280850F0001BF382 /* UI */,
 				F9734E79280740DF00301ECA /* Preview Content */,
 			);
 			path = ssbook;
@@ -127,6 +218,80 @@
 			path = ssbookUITests;
 			sourceTree = "<group>";
 		};
+		F9C9BB9D28108BAE00CC261F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F9C9BBA528109C4400CC261F /* GraphQL */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F9C9BBA528109C4400CC261F /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				F9C9BBA428109C0F00CC261F /* schema.json */,
+				F9C9BBAA28109D0F00CC261F /* API.swift */,
+				F9C9BBAC28109D0F00CC261F /* Network.swift */,
+				F9C9BBA828109D0F00CC261F /* AllBooks.graphql */,
+				F9C9BBA628109D0F00CC261F /* BookDescription.graphql */,
+				F9C9BBA728109D0F00CC261F /* Categories.graphql */,
+				F9C9BBA928109D0F00CC261F /* FavoriteAuthors.graphql */,
+				F9C9BBAB28109D0F00CC261F /* FavoriteBooks.graphql */,
+				F9C9BBAD28109D0F00CC261F /* UserPicture.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		F9C9BBB628109DF100CC261F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F9C9BBBC2810A66900CC261F /* FavoriteAuthorsModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F9C9BBB92810A22A00CC261F /* Testes de código */ = {
+			isa = PBXGroup;
+			children = (
+				F9734E73280740DD00301ECA /* ssbookApp.swift */,
+				F9C9BB9E28108BD900CC261F /* AppTestView.swift */,
+				F93CD43A280F561D00EA6D14 /* APITestApp.swift */,
+				F9C9BBBE2810A91D00CC261F /* ViewController.swift */,
+				F9EFD49328089E1E001BF382 /* MainNavigationView.swift */,
+				F9C9BBBA2810A24C00CC261F /* ContentView2.swift */,
+			);
+			name = "Testes de código";
+			path = "Testes de código";
+			sourceTree = "<group>";
+		};
+		F9EFD487280850F0001BF382 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F9C9BBB72810A21100CC261F /* FavoriteAuthorsViewModel.swift */,
+				F926434E280DFD9B009A651C /* ViewControllers */,
+				F9734E77280740DF00301ECA /* Assets.xcassets */,
+				F9EFD48F28085A32001BF382 /* Shapes */,
+				F9EFD488280850F6001BF382 /* Fonts */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F9EFD488280850F6001BF382 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F9EFD48928085451001BF382 /* BebasNeue-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F9EFD48F28085A32001BF382 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				F9EFD48D28085A2C001BF382 /* RoundesRectangleCustomShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9734E94280740DF00301ECA /* Build configuration list for PBXNativeTarget "ssbook" */;
 			buildPhases = (
+				F93CD424280F495E00EA6D14 /* Generate Apollo GraphQL API */,
 				F9734E6C280740DD00301ECA /* Sources */,
 				F9734E6D280740DD00301ECA /* Frameworks */,
 				F9734E6E280740DD00301ECA /* Resources */,
@@ -141,8 +307,17 @@
 			buildRules = (
 			);
 			dependencies = (
+				F93CD426280F51F400EA6D14 /* PBXTargetDependency */,
 			);
 			name = ssbook;
+			packageProductDependencies = (
+				F93CD428280F542300EA6D14 /* Apollo */,
+				F93CD42A280F542300EA6D14 /* ApolloAPI */,
+				F93CD42C280F542300EA6D14 /* ApolloCodegenLib */,
+				F93CD42E280F542300EA6D14 /* ApolloSQLite */,
+				F93CD430280F542300EA6D14 /* ApolloUtils */,
+				F93CD432280F542300EA6D14 /* ApolloWebSocket */,
+			);
 			productName = ssbook;
 			productReference = F9734E70280740DD00301ECA /* ssbook.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +390,9 @@
 				Base,
 			);
 			mainGroup = F9734E67280740DD00301ECA;
+			packageReferences = (
+				F93CD427280F542300EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = F9734E71280740DD00301ECA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +409,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C9BBB128109D0F00CC261F /* FavoriteAuthors.graphql in Resources */,
 				F9734E7B280740DF00301ECA /* Preview Assets.xcassets in Resources */,
+				F9C9BBAF28109D0F00CC261F /* Categories.graphql in Resources */,
+				F9C9BBB528109D0F00CC261F /* UserPicture.graphql in Resources */,
+				F9C9BBB028109D0F00CC261F /* AllBooks.graphql in Resources */,
 				F9734E78280740DF00301ECA /* Assets.xcassets in Resources */,
+				F9C9BBAE28109D0F00CC261F /* BookDescription.graphql in Resources */,
+				F9C9BBB328109D0F00CC261F /* FavoriteBooks.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +436,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F93CD424280F495E00EA6D14 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/ssbook/GraphQL\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9734E6C280740DD00301ECA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93CD43B280F561D00EA6D14 /* APITestApp.swift in Sources */,
+				F9C9BBB228109D0F00CC261F /* API.swift in Sources */,
+				F9EFD49428089E1E001BF382 /* MainNavigationView.swift in Sources */,
+				F9FC832C280766EB00D66AFB /* FavoriteBooksHomeView.swift in Sources */,
+				F9FC8332280767E400D66AFB /* LibraryHomeView.swift in Sources */,
+				F9FC83262807620F00D66AFB /* SearchTabView.swift in Sources */,
+				F9FC8324280761FD00D66AFB /* AddView.swift in Sources */,
+				F9C9BBBF2810A91D00CC261F /* ViewController.swift in Sources */,
+				F9FC832E2807674F00D66AFB /* FavoriteAuthorsHomeView.swift in Sources */,
+				F9FC832A2807636C00D66AFB /* TabBarView.swift in Sources */,
+				F9EFD48E28085A2C001BF382 /* RoundesRectangleCustomShape.swift in Sources */,
+				F9C9BB9F28108BD900CC261F /* AppTestView.swift in Sources */,
+				F934EC002816C92100063515 /* SSBookApp.swift in Sources */,
+				F9FC83282807622200D66AFB /* FavoritesTabView.swift in Sources */,
+				F9EFD48328084B13001BF382 /* HeaderView.swift in Sources */,
+				F9FC83222807604B00D66AFB /* HomeTabView.swift in Sources */,
+				F9C9BBBD2810A66900CC261F /* FavoriteAuthorsModel.swift in Sources */,
+				F9C9BBB428109D0F00CC261F /* Network.swift in Sources */,
+				F9C9BBB82810A21100CC261F /* FavoriteAuthorsViewModel.swift in Sources */,
+				F9EFD4962808A15A001BF382 /* BookScreen.swift in Sources */,
 				F9734E76280740DD00301ECA /* ContentView.swift in Sources */,
+				F9C9BBBB2810A24C00CC261F /* ContentView2.swift in Sources */,
 				F9734E74280740DD00301ECA /* ssbookApp.swift in Sources */,
+				F9FC83302807679500D66AFB /* GenresHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +509,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F93CD426280F51F400EA6D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = F93CD425280F51F400EA6D14 /* Apollo-Dynamic */;
+		};
 		F9734E82280740DF00301ECA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F9734E6F280740DD00301ECA /* ssbook */;
@@ -421,6 +652,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ssbook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ssbook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +681,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ssbook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ssbook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -579,6 +812,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F93CD413280F372200EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F93CD427280F542300EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F93CD425280F51F400EA6D14 /* Apollo-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93CD413280F372200EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = "Apollo-Dynamic";
+		};
+		F93CD428280F542300EA6D14 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93CD427280F542300EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		F93CD42A280F542300EA6D14 /* ApolloAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93CD427280F542300EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloAPI;
+		};
+		F93CD42C280F542300EA6D14 /* ApolloCodegenLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93CD427280F542300EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCodegenLib;
+		};
+		F93CD42E280F542300EA6D14 /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93CD427280F542300EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		F93CD430280F542300EA6D14 /* ApolloUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93CD427280F542300EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloUtils;
+		};
+		F93CD432280F542300EA6D14 /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93CD427280F542300EA6D14 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F9734E68280740DD00301ECA /* Project object */;
 }
